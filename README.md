@@ -1,6 +1,6 @@
 # Hough Transform for Circle Detection
 
-Implementation of hough transform algorithm for detecting circular objects in a given image.
+Hough Transforms is a feature extraction technique used for finding imperfect instances of objects belonging to a certain class of shapes, using a voting procedure. This voting procedure is carried out in parameter space from which object candidates are obtained as local maxima in accumulator space, which is constructed by the algorithm computing Hough Transform. One of the main features of Hough Transforms is to perform groupings of edge points into object candidates by performing an explicit voting procedure over a set of parameterized image objects. The simplest case of Hough transform is detecting straight lines, but it can be extended to identify variety of shapes, most commonly Ellipse or a Circle.
 
 ## Dependencies
 
